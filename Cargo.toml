@@ -1,0 +1,11 @@
+[package]
+name = "tibco-ems-sender-rs"
+version = "0.1.0"
+authors = ["Alexander Kunde <alexander.kunde@hamburgsud.com>"]
+edition = "2018"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tibco_ems = "0.1.18"
+env_logger = "0.8.2"
+log = "0.4.13"
